@@ -4,21 +4,27 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 // eigen import //
-import About from "./About";
-import Shop from "./Shop";
+import Series from "./pages/Series";
+import Films from "./pages/Films";
+import Nieuw from "./pages/Nieuw";
+import Lijst from "./pages/Lijst";
+import Kijk from "./pages/Kijk";
 
 function App() {
   return (
-    <div className="App">
-      <Router>
+    <Router>
+      <div className="App">
         <Nav />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/shop" component={Shop} />
+          <Route path="/Series" component={Series} />
+          <Route path="/Films" component={Films} />
+          <Route path="/Nieuw" component={Nieuw} />
+          <Route path="/lijst" component={Lijst} />
+          <Route path="/Kijk" component={Kijk} />
         </Switch>
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 }
 
@@ -151,7 +157,6 @@ const Home = () => (
       nesciunt, pariatur eos aut dicta itaque in consequuntur, voluptas illo
       sapiente totam voluptatem, ea alias blanditiis?
     </p>
-
   </div>
 );
 

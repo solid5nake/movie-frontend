@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Nav.css";
 
 function Nav() {
@@ -10,8 +11,24 @@ function Nav() {
         alt="Netflix Logo"
       />
       <ul className="nav_links">
-        <li>About</li>
-        <li>Shop</li>
+        <Link to="/">
+          <li>Home</li>
+        </Link>
+        <Link to="./Series">
+          <li>Series</li>
+        </Link>
+        <Link to="./Films">
+          <li>Films</li>
+        </Link>
+        <Link to="./Nieuw">
+          <li>Nieuw en Populair</li>
+        </Link>
+        <Link to="./Lijst">
+          <li>Mijn lijst</li>
+        </Link>
+        <Link to="./Kijk">
+          <li>Kijk opnieuw</li>
+        </Link>
       </ul>
 
       <img
