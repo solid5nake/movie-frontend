@@ -1,0 +1,33 @@
+.nav {
+ 
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_logo {
+    position: fixed;
+    left: 0;
+    width: 80px;
+    object-fit: contain;
+
+}
+
+.nav_links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  
+}
+
+.nav_avatar {
+    position: fixed;
+    right: 20px;
+    width: 30px;
+    object-fit: contain;
+}
