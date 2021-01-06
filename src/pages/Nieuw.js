@@ -4,7 +4,7 @@ import React from "react";
 function Nieuw() {
   return (
     <div className="Nieuw">
-      <h1>Nieuw en populair</h1>
+      <h1>Verplicht NET-01 Nieuw en populair</h1>
     </div>
   );
 }

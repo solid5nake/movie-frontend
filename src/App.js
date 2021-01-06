@@ -9,6 +9,7 @@ import Films from "./pages/Films";
 import Nieuw from "./pages/Nieuw";
 import Lijst from "./pages/Lijst";
 import Kijk from "./pages/Kijk";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -139,25 +140,10 @@ const Home = () => (
       nesciunt, pariatur eos aut dicta itaque in consequuntur, voluptas illo
       sapiente totam voluptatem, ea alias blanditiis?
     </p>
-    <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, iure
-      rem ratione placeat aliquid asperiores laboriosam, quod et iusto, labore
-      ex beatae aliquam quam illum? Non ad cupiditate recusandae perspiciatis!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
-      excepturi alias aliquid dicta placeat tenetur ea a commodi. Eaque
-      reiciendis maiores rerum corporis et voluptas labore totam repudiandae
-      sint pariatur? Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-      Libero perspiciatis quibusdam incidunt quia minima mollitia modi non amet
-      ducimus quisquam atque accusamus repellendus, saepe officiis delectus
-      dicta architecto deserunt omnis! Lorem ipsum dolor sit amet consectetur
-      adipisicing elit. Aspernatur excepturi quas, error amet placeat ex fuga
-      tenetur assumenda, voluptate eaque inventore porro. Assumenda natus porro
-      neque necessitatibus veniam dignissimos obcaecati. Lorem ipsum dolor sit
-      amet consectetur adipisicing elit. Accusamus doloribus nam cum ipsum. Fuga
-      nesciunt, pariatur eos aut dicta itaque in consequuntur, voluptas illo
-      sapiente totam voluptatem, ea alias blanditiis?
-    </p>
+ 
+    <Footer />
   </div>
+
 );
 
 export default App;

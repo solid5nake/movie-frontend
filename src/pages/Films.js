@@ -8,7 +8,7 @@ function Films() {
       <div className="Films">
         
   
-        <h1>Films</h1>
+        <h1>Verplicht NET-01 Films</h1>
         
       </div>
     );
